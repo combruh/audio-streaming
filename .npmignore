@@ -1,0 +1,16 @@
+node_modules/
+tsconfig.json
+*.png
+*.log
+*.ts
+!index.d.ts
+!async-await.js
+.vs
+.vs/
+.sln
+*.sln
+!*.d.ts
+*.map
+references.d.ts
+.gitignore
+.git

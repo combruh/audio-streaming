@@ -1,0 +1,37 @@
+{
+    "name": "audio-streaming",
+    "version": "1.0.0",
+    "main": "player",
+    "typings": "index.d.ts",
+    "license": "MIT",
+    "keywords": [
+        "nativescript-vue",
+        "typescript",
+        "streaming",
+        "android",
+        "player",
+        "audio",
+        "ios"
+    ],
+    "author": {
+        "name": "combruh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/combruh/audio-streaming.git"
+    },
+    "scripts": {
+        "tsc": "tsc -skipLibCheck",
+        "build": "npm i && ts-patch install && tsc",
+        "clean": "rimraf *.js *.js.map **/*.js **/*.js.map",
+        "clean-all": "rimraf *.js *.js.map **/*.js **/*.js.map node_modules package-lock.json"
+    },
+    "devDependencies": {
+        "@nativescript/core": "^8.8.4",
+        "@nativescript/types": "^8.8.0",
+        "@nativescript/webpack": "~5.0.22",
+        "rimraf": "^6.0.1",
+        "ts-patch": "^3.2.1",
+        "typescript": "~5.6.3"
+    }
+}
